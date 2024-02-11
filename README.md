@@ -10,6 +10,7 @@ A web-based sorting visualizer that helps users understand how various sorting a
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Supported Sorting Algorithms](#supported-sorting-algorithms)
+- [Tech Stack](#Tech-Stack)
 - [Features](#features)
 - [Contributing](#contributing)
 - [License](#license)
@@ -40,6 +41,11 @@ To run the sorting visualizer locally, follow these steps:
 - Merge Sort
 - Quick Sort
 - Heap Sort
+
+## 💻 Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript
+- **Styling:** Bootstrap 5
 
 ## 🌟 Features
 
