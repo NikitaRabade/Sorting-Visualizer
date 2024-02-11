@@ -1,12 +1,11 @@
-# Sorting-Visualizer
+# 🌈 Sorting-Visualizer
 Explore sorting algorithms with the Repository Sorting Visualizer – a captivating web tool in HTML, CSS, and JavaScript. Dynamically visualize Bubble, Merge, Quick, Insertion, Selection, and Heap Sort, unraveling sorting intricacies in this interactive, visually stunning project for hands-on learning.
 
 A web-based sorting visualizer that helps users understand how various sorting algorithms work.
 
 ![Sorting Visualizer Demo](link-to-demo-gif-or-screenshot)
 
-
-## Table of Contents
+## 📜 Table of Contents
 
 - [Getting Started](#getting-started)
 - [Usage](#usage)
@@ -19,8 +18,7 @@ A web-based sorting visualizer that helps users understand how various sorting a
 - [Issues and Bug Reporting](#issues-and-bug-reporting)
 - [Future Enhancements](#future-enhancements)
 
-
-## Getting Started
+## 🚀 Getting Started
 
 To run the sorting visualizer locally, follow these steps:
 
@@ -28,13 +26,13 @@ To run the sorting visualizer locally, follow these steps:
 2. Navigate to the project directory: `cd sorting-visualizer`
 3. Open `index.html` in your web browser.
 
-## Usage
+## 🎮 Usage
 
 - Use the provided controls to input data or generate random datasets.
 - Select a sorting algorithm from the Navigation Bar.
 - Click "Sort" to see the sorting algorithm in action.
 
-## Supported Sorting Algorithms
+## 🧰 Supported Sorting Algorithms
 
 - Bubble Sort
 - Insertion Sort
@@ -43,21 +41,26 @@ To run the sorting visualizer locally, follow these steps:
 - Quick Sort
 - Heap Sort
 
-## Features
+## 🌟 Features
+
 - Real-time visualization of sorting algorithms.
 - User-friendly interface with Bootstrap 5 styling.
 
-## Contributing
-We welcome contributions! If you find any issues or have feature requests, please open an issue.
+## 🤝 Contributing
+We welcome contributions! If you find any issues or have feature requests, please [open an issue](link-to-issues).
 
-## License
+## 📄 License
 This project is licensed under the MIT License.
 
-## Acknowledgments
+## 🙌 Acknowledgments
 Bootstrap 5 for providing a sleek and responsive UI.
 
-## Issues and Bug Reporting
-If you encounter any issues or bugs, please report them here.
+## 🐞 Issues and Bug Reporting
+If you encounter any issues or bugs, please [report them here](link-to-issues).
+
+## 🚀 Future Enhancements
+
+- **Step-by-Step Mode:** Implement a step-by-step mode where users can manually advance through each step of the sorting algorithm. This is beneficial for a more in-depth understanding of the algorithm.
 
 ```html
 <!-- Add necessary HTML structure -->
