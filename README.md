@@ -7,18 +7,17 @@ A web-based sorting visualizer that helps users understand how various sorting a
 
 ## 📜 Table of Contents
 
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Supported Sorting Algorithms](#supported-sorting-algorithms)
-- [Tech Stack](#Tech-Stack)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-- [Contact Information](#contact-information)
-- [Issues and Bug Reporting](#issues-and-bug-reporting)
-- [Future Enhancements](#future-enhancements)
-
+- [Getting Started](#🚀-getting-started)
+- [Usage](#🎮-usage)
+- [Supported Sorting Algorithms](#🧰-supported-sorting-algorithms)
+- [Tech Stack](#💻-tech-stack)
+- [Features](#🌟-features)
+- [Contributing](#🤝-contributing)
+- [License](#📄-license)
+- [Acknowledgments](#🙌-acknowledgments)
+- [Contact Information](#📞-contact-information)
+- [Issues and Bug Reporting](#🐞-issues-and-bug-reporting)
+- [Future Enhancements](#🚀-future-enhancements)
 ## 🚀 Getting Started
 
 To run the sorting visualizer locally, follow these steps:
