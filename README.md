@@ -7,7 +7,7 @@ A web-based sorting visualizer that helps users understand how various sorting a
 
 ## 📜 Table of Contents
 
-- [Getting Started](#🚀-getting-started)
+- [Getting Started](#🚀 getting started)
 - [Usage](#🎮-usage)
 - [Supported Sorting Algorithms](#🧰-supported-sorting-algorithms)
 - [Tech Stack](#💻-tech-stack)
