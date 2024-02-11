@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+
+
+</head>
+
+<body>
+
+    <!--header-->
+    <header class="header active hide" data-header="">
+        <div class="container">
+
+            <!--logo-->
+            <a href="index.html" class="logo">
+                <h1>Sorting Visualizer</h1>
+            </a>
+
+            <!--Navbar-->
+            <nav class="navbar active" data-navbar="">
+
+                <!--Close Btn-->
+                <button class="close-btn" aria-label="close-menu" data-nav-toggler>
+                    &#10006;
+                </button>
+
+                <!--logo-->
+                <a href="index.html" class="logo">
+                    <h1>Sorting Visualizer</h1>
+                </a>
+
+
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <button class="algorithmButton">Bubble</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="algorithmButton">Insertion</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="algorithmButton">Selection</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="algorithmButton">Merge</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="algorithmButton">Quick</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="algorithmButton">Heap</button>
+                    </li>
+
+                    <a href="https://github.com/NikitaRabade" aria-label="Homepage" class="footer-octicon"
+                        title="GitHub">
+                        <svg aria-hidden="true" class="octicon octicon-mark-github" height="40" version="1.1"
+                            viewBox="0 0 16 16" width="40">
+                            <path fill-rule="evenodd"
+                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z">
+                            </path>
+                        </svg>
+                    </a>
+
+                </ul>
+
+            </nav>
+
+            <button class="navbar-open-btn" aria-label="open menu" data-nav-toggler>
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </button>
+
+            <div class="overlay active" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="sort-array" id="sort-array">
+            <div class="container">
+                <div class="array-inputs col-lg-12 col-md-12 row mt-4">
+                    <div class="col-lg-4 col-md-4">
+                        <button class="generateArray" id="generateArray">Generate New Array!</button>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6">
+                        <label for="array-size">Change Array Size : </label>
+                        <input type="range" id="array-size" name="array-size" min=5 max=485 step=1 value=60>
+                        <br>
+                        <label for="array-speed">Change Sorting Speed : </label>
+                        <input type="range" id="array-speed" name="array-speed" min=1 max=5 step=1 value=4>
+                    </div>
+
+                    <div class="col-lg-2 col-md-2 s-button">
+                        <div class="sort-button" id="sort-button"></div>
+                    </div>
+                </div>
+
+                <div class="array-container mt-4" id="array-container">
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+
+
+
+    <!--Scripts-->
+    <script src="./scripts/bootstrap.bundle.min.js"></script>
+    <script src="./scripts/custom.js"></script>
+    <script src="./scripts/bubble_sort.js"></script>
+    <script src="./scripts/merge_sort.js"></script>
+    <script src="./scripts/heap_sort.js"></script>
+    <script src="./scripts/inseration_sort.js"></script>
+    <script src="./scripts/selection_sort.js"></script>
+    <script src="./scripts/quick_sort.js"></script>
+    <script src="./scripts/visualization.js"></script>
+
+
+
+
+</body>
+
+</html>
