@@ -3,7 +3,6 @@ Explore sorting algorithms with the Repository Sorting Visualizer – a captivat
 
 A web-based sorting visualizer that helps users understand how various sorting algorithms work.
 
-![Sorting Visualizer Demo](https://nikitarabade.github.io/Sorting-Visualizer/)
 Sorting Visualizer Demo :  [Sorting Visualizer Demo](https://nikitarabade.github.io/Sorting-Visualizer/)
 
 ## 📜 Table of Contents
